@@ -23,6 +23,13 @@ console.log("El valor de la variable indefinido es: " + indefinido);
 console.log("El primer elemento del arreglo es: " + arreglo[0]);
 
 console.log(typeof(objeto)); // Muestra 'object'
+// STRINGS
+let saludo = "Hola";
+let concatenacion = saludo + " " + nombre;
+
+console.log(concatenacion);
+console.log(concatenacion.length); // Longitud de la cadena
+console.log(concatenacion[8]);
 
 // FUNCIONES
 function saludar(nombre) { // Función tradicional (puede ser llamada antes de su declaración)
