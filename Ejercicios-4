@@ -80,10 +80,36 @@ let clasificacion = ""
 edad >= 18? clasificacion = "Adulto": clasificacion = "Menor"
 console.log(clasificacion)
 // 6. Muestra en que estación del año nos encontramos dependiendo del valor de una variable "mes"
+let mes = 0;
 
+switch(mes){
+    case 0 :
+        console.log("Enero");
+        break;
+    case 1 :
+        console.log("Febrero");
+        break;
+    case 2 :
+        console.log("Marzo");
+        break;
+    default:
+        console.log("Mes no valido");
+}
 // 7. Muestra el número de días que tiene un mes dependiendo de la variable del ejercicio anterior
 
-// switch
+switch(mes){
+    case 0 :
+        console.log("Enero tiene 31 días");
+        break;
+    case 1 :
+        console.log("Febrero tiene 28 días");
+        break;
+    case 2 :
+        console.log("Marzo tiene 31 días");
+        break;
+    default:
+        console.log("Mes no valido");
+}
 
 // 8. Usa un switch para imprimir un mensaje de saludo diferente dependiendo del idioma
 
