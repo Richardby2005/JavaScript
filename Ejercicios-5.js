@@ -30,6 +30,7 @@ console.log(meses)
 let mes = 1
 if (meses.has(mes)) {
     console.log("mes existente")
+    console.log(meses.get(mes))
 } else {console.log(`no existe el mes ${mes} en la base de datos`)}
 // 9. Añade al mapa una clave con un array que almacene los meses de verano
 meses.set([1,2,3],"Verano")
